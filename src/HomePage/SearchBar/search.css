@@ -1,0 +1,67 @@
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/* Styling for the header */
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    gap: 40px;
+    flex-wrap: wrap;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    >.search-bar {
+        flex-grow: 1;
+        display: flex;
+        align-items: center;
+        background-color: #fff;
+        padding: 8px 12px;
+        border: 1px solid #ced4da;
+        border-radius: 25px;
+        gap: 8px;
+        max-width: fit-content;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+
+        >.input-box input {
+            width: 100%;
+            flex-grow: 1;
+            border: none;
+            outline: none;
+            font-size: 1rem;
+            background: transparent;
+            padding: 0 8px;
+            color: #495057;
+        }
+
+        >.icon {
+            color: #6c757d;
+            font-size: 1.2rem;
+            cursor: pointer;
+        }
+
+        >.input:focus {
+            box-shadow: none;
+        }
+    }
+
+    .search-bar:focus-within {
+        border-color: none;
+        outline: 2px solid violet;
+        background-color: transparent;
+        box-shadow: none;
+        >.icon{
+            color: violet;
+        }
+    }
+
+}
+

@@ -1,0 +1,118 @@
+/* Outer modal container */
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    backdrop-filter: blur(5px);
+    /* Add a slight blur to the background */
+}
+
+/* Overlay */
+.modal .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    /* Dark semi-transparent background */
+    z-index: 1;
+}
+
+/* Modal content */
+.modal .modal-content {
+    position: relative;
+    z-index: 2;
+    background: #fff;
+    border-radius: 15px;
+    width: 90%;
+    max-width: 500px;
+    padding: 20px;
+    box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 0.3s ease-in-out;
+}
+
+/* Modal head */
+.modal .modal-content .modal-head {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 15px;
+    padding: 10px;
+}
+
+.modal .modal-content .modal-head h3 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    color: #333;
+}
+
+.modal .modal-content .modal-head .close-modal {
+    background: #ff5c5c;
+    height: 5vh;
+    width: 90px;
+    border-radius: 4px;
+    border: none;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.modal .modal-content .modal-head .close-modal:hover {
+    background: #ff3333;
+    transform: scale(1.1);
+}
+
+/* Post box */
+.modal .modal-content .post-box {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.modal .modal-content .post-box p {
+    font-size: 1rem;
+    color: #555;
+}
+
+.modal .modal-content .post-box textarea {
+    width: 100%;
+    height: 100px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    resize: none;
+    font-size: 1rem;
+    color: #333;
+    transition: border 0.2s ease;
+}
+
+.modal .modal-content .post-box textarea:focus {
+    border-color: #007bff;
+    outline: none;
+}
+
+.modal .modal-content .post-box button {
+    background: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.modal .modal-content .post-box button:hover {
+    background: #0056b3;
+}
