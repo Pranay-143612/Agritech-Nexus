@@ -14,7 +14,7 @@ function Front() {
     <div className='entry-page'>
       <div className='navigation'>
         <div className='title'>
-          <h2>Query Box</h2>
+          <h2>Agritech Nexus</h2>
         </div>
         <div className='navbar'>
           <ul>
@@ -36,7 +36,7 @@ function Front() {
             <div className='text'>
               <div className='head' style={{display:"flex", gap:"11px"}}>
               <h1>Welcome to</h1>
-              <h1 className='span-text'>Query Box!</h1>
+              <h1 className='span-text'>Agritech Nexus!</h1>
               </div>
               <p>A collaborative platform to ask questions, share knowledge, and find insightful answers.
                 Connect with experts, peers, and communities to solve problems and exchange ideas.

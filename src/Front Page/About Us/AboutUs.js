@@ -13,7 +13,7 @@ function AboutUs() {
                 <div className="cards card-1">
                     <img src={mission} alt="Our Mission" />
                     <h2>Our Mission</h2>
-                    <p>Query Box aims to provide a platform for users to ask questions, share answers, and collaborate on solving problems. It fosters a supportive community for learning and knowledge sharing in a simple, interactive environment.</p>
+                    <p>Agritech Nexus aims to provide a platform for users to ask questions, share answers, and collaborate on solving problems. It fosters a supportive community for learning and knowledge sharing in a simple, interactive environment.</p>
                 </div>
                 <div className="cards card-2">
                     <img src={vision} alt="Our Vision" />
@@ -28,7 +28,7 @@ function AboutUs() {
                 <div className="cards card-4">
                     <img src={why} alt="Why Us?" />
                     <h2>Why Us?</h2>
-                    <p>Query Box stands out as a platform that prioritizes simplicity, accessibility, and reliability. Whether you're seeking answers or sharing expertise, we ensure a smooth and enriching experience for all users.</p>
+                    <p>Agritech Nexus stands out as a platform that prioritizes simplicity, accessibility, and reliability. Whether you're seeking answers or sharing expertise, we ensure a smooth and enriching experience for all users.</p>
                 </div>
             </div>
         </section>

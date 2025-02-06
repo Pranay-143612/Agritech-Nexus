@@ -144,7 +144,7 @@ function Login() {
             <div className='side-info'>
                 <div className='info-cont'>
                 <h1>Empowering Users with a Community-Driven Platform for Seamless Knowledge Sharing and Problem Solving</h1>
-                    <br></br><p><span>Query Box</span> connects you to solutions for a sustainable future</p>
+                    <br></br><p><span>Agritech Nexus</span> connects you to solutions for a sustainable future</p>
                 </div>
             </div>
             <div className='side-login'>

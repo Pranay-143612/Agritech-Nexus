@@ -74,7 +74,7 @@ function Navbar() {
           <div style={{ fontSize: isOpen ? "20px" : "20px" }} className='bars' onClick={toggle}>
             {isOpen ? "X" : ">>"}
           </div>
-          <h1 className='logo'>{<FontAwesomeIcon icon={faJetFighter} />} Query Box</h1>
+          <h1 className='logo'>{<FontAwesomeIcon icon={faJetFighter} />} Agritech Nexus</h1>
         </div>
         <h3>{first}</h3>
       </div>
@@ -116,7 +116,8 @@ function Navbar() {
                 <FontAwesomeIcon icon={faPen} />
               </div>
               <div className='add-query-text' style={{ display: isOpen ? "block" : "none" }}>
-                Post Query
+                
+                Share your thoughts
               </div>
             </div>
           </div>

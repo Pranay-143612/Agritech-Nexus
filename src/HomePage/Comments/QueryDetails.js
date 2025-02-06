@@ -69,7 +69,7 @@ export function QueryDetails() {
     <div className="comments-page">
       <div className='header'>
         <div className="details">
-          <h1 className='logo'>{<FontAwesomeIcon icon={faJetFighter} />} Query Box</h1>
+          <h1 className='logo'>{<FontAwesomeIcon icon={faJetFighter} />} Agritech Nexus</h1>
           <div className="user-deatils">
             <h3>{first}</h3>
             <div className="name-email">

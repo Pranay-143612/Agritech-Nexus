@@ -6,8 +6,8 @@ import { faBell, faFilter, faHandsClapping, faHandsHoldingChild, faPenNib, faRep
 function Features() {
     return (
         <section className="features-section">
-            <h1>Key Features of Query Box</h1>
-            <p className="para">With features built to enhance interaction and simplify information sharing, Query Box ensures a dynamic and engaging experience for both users and contributors alike. Here are some of the key features of our Query Box👇</p>
+            <h1>Key Features of Agritech Nexus</h1>
+            <p className="para">With features built to enhance interaction and simplify information sharing, Agritech Nexus ensures a dynamic and engaging experience for both users and contributors alike. Here are some of the key features of our Agritech Nexus👇</p>
             <div className="features">
                 <ul className="features-list">
                     <li className="features-list-item">
