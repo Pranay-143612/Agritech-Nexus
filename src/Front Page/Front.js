@@ -27,6 +27,8 @@ function Front() {
             <li onClick={() => scrollToSection('about')}>About Us</li>
             <li onClick={() => scrollToSection('features')}>Features</li>
             <li onClick={() => scrollToSection('contact')}>Contact Us</li>
+            
+            
           </ul>
           <div className='front-btn'>
             <NavLink to='/login'>
@@ -36,10 +38,7 @@ function Front() {
         </div>
       </div>
       <div className='welcome'>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
-        <div className="bubble"></div>
+
         <div className='details-welcome'>
           <div className='image-text'>
             <div className='text'>
