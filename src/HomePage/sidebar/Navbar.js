@@ -31,7 +31,7 @@ function Navbar() {
 
   const barItems = [
     {
-      name: "Technolgy",
+      name: "Technology",
       icon: <FontAwesomeIcon icon={faMicrochip} />
     }, {
       name: "Science",
