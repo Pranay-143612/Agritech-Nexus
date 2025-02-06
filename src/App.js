@@ -5,7 +5,7 @@
 //import Home from './HomePage/Home';
 //import Front from './Front Page/Front.js'
 
-//import Navbar from "./HomePage/sidebar/Navbar";
+import Navbar from "./HomePage/sidebar/Navbar";
 
 function App() {
   return (
@@ -16,3 +16,22 @@ function App() {
 }
 
 export default App;
+
+
+// import React from 'react';
+// import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+// import Front from './Front Page/Front.js'
+// import FarmersMarket from './pages/FarmersMarket/FarmersMarket'; // Adjust path if necessary
+
+// function App() {
+//   return (
+//     <Router>
+//       <Routes>
+//         <Route path="/" element={<Front />} />
+//         <Route path="/farmers-market" element={<FarmersMarket />} />
+//       </Routes>
+//     </Router>
+//   );
+// }
+
+// export default App;

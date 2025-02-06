@@ -9,6 +9,8 @@ import Login from './Login/Login';
 import Home from './HomePage/Home';
 import { QueryDetails } from './HomePage/Comments/QueryDetails';
 import Front from './Front Page/Front';
+import FarmerMarket from './pages/FarmersMarket/FarmersMarket';
+import Cart from './pages/FarmersMarket/CartPage';
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -17,6 +19,8 @@ const router = createBrowserRouter(
       <Route path='login/' element={<Login />}></Route>
       <Route path='home/' element={<Home/>}></Route>
       <Route path='querydetails/:uid' element={<QueryDetails />} ></Route>
+      <Route path="/farmers-market" element={<FarmerMarket />} />
+      <Route path="/cart" element={<Cart />} />
     </Route>
   )
 )

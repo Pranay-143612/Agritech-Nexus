@@ -1,11 +1,10 @@
-//import React, { useState, useEffect } from 'react';
-import './front.css';
+import React from 'react';
 import { NavLink } from 'react-router-dom';
-//import entry from './entry.jpg';
+import './front.css';
 import AboutUs from './About Us/AboutUs';
 import Features from './features/Features';
 import ContactUs from './Contact us/ContactUs';
-import back from './rb_854.png'
+import back from './rb_854.png';
 
 function Front() {
   const scrollToSection = (id) => {
@@ -23,22 +22,22 @@ function Front() {
         </div>
         <div className='navbar'>
           <ul>
-            <li onClick={() => scrollToSection('home')}>Home</li>
-            <li onClick={() => scrollToSection('about')}>About Us</li>
-            <li onClick={() => scrollToSection('features')}>Features</li>
-            <li onClick={() => scrollToSection('contact')}>Contact Us</li>
-            
-            
+            <li><a href='#home' onClick={() => scrollToSection('home')}>Home</a></li>
+            <li><a href='#about' onClick={() => scrollToSection('about')}>About Us</a></li>
+            <li><a href='#features' onClick={() => scrollToSection('features')}>Features</a></li>
+            <li><a href='#contact' onClick={() => scrollToSection('contact')}>Contact Us</a></li>
           </ul>
-          <div className='front-btn'>
+          <div className='front-btn' style={{ display: 'flex', alignItems: 'center', gap: '20px' }}>
+            <NavLink to='/farmers-market' className="farmermarket">
+              Farmer's Market
+            </NavLink>
             <NavLink to='/login'>
-              <button type="button"><span></span>Login</button>
+              <button type='button'><span></span>Login</button>
             </NavLink>
           </div>
         </div>
       </div>
       <div className='welcome'>
-
         <div className='details-welcome'>
           <div className='image-text'>
             <div className='text'>
@@ -69,4 +68,3 @@ function Front() {
 }
 
 export default Front;
-
