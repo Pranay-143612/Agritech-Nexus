@@ -44,8 +44,8 @@ function Features() {
                             <FontAwesomeIcon icon={faHandsClapping} className="features-icon" />
                         </div>
                         <div className="features-text">
-                            <h4 className="features-item-heading" style={{color:"#f5820f"}}>Voting and Reputation System</h4>
-                            <p className="features-item-description">Reward active participants with votes and reputation points.</p>
+                            <h4 className="features-item-heading" style={{color:"#f5820f"}}>Direct Farmer-to-Consumer Sales</h4>
+                            <p className="features-item-description">Reward farmers with better profits through direct consumer sales.</p>
                         </div>
                     </li>
                     <li className="features-list-item">
