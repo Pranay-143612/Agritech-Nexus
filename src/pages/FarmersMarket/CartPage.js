@@ -4,7 +4,7 @@ import './styles.css';
 
 const CartPage = ({ cartItems = [], setCartItems }) => {
   const removeFromCart = (id) => {
-    setCartItems(cartItems.filter(item => item.id !== id));
+    setCartItems(cartItems.filter((item) => item.id !== id));
   };
 
   const getTotalPrice = () => {
@@ -24,7 +24,7 @@ const CartPage = ({ cartItems = [], setCartItems }) => {
       ) : (
         <div className="cart-content">
           <ul className="cart-list">
-            {cartItems.map(item => (
+            {cartItems.map((item) => (
               <li key={item.id} className="cart-item">
                 <img src={item.image} alt={item.name} className="cart-item-image" />
                 <div className="cart-item-details">

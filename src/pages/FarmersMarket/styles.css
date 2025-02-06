@@ -132,5 +132,40 @@ body {
     background-color: #218838;
   }
   
+/* Navbar adjustments */
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px 20px;
+  background-color: #ffffff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+}
 
-  
+.navbar h1 {
+  font-size: 2rem;
+  margin: 0;
+  color: #333;
+}
+
+.cart-icon {
+  position: relative;
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: #333;
+  cursor: pointer;
+}
+
+.cart-badge {
+  position: absolute;
+  top: -10px;
+  right: -10px;
+  background-color: #e74c3c;
+  color: white;
+  font-size: 0.8rem;
+  padding: 5px;
+  border-radius: 50%;
+}
+
