@@ -5,6 +5,7 @@ import AboutUs from './About Us/AboutUs';
 import Features from './features/Features';
 import ContactUs from './Contact us/ContactUs';
 import back from './rb_854.png';
+import Innovators from './Innovators/Innovators';
 
 function Front() {
   const scrollToSection = (id) => {
@@ -63,6 +64,8 @@ function Front() {
       </section>
       <section id='features'><Features /></section>
       <section id='contact'><ContactUs /></section>
+      <section id='innovators'><Innovators /></section>
+
     </div>
   );
 }
