@@ -37,6 +37,11 @@ const Innovators = () => {
       review: "The user experience is fantastic, and the knowledge sharing is unmatched.",
       rating: 5,
     },
+    {
+      reviewer: "Devupalli Jayanth",
+      review: "Agritech Nexus truly stands out as an innovative platform.",
+      rating: 5,
+    },
   ];
 
   const renderStars = (rating) => {

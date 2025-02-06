@@ -63,8 +63,9 @@ function Front() {
         <AboutUs />
       </section>
       <section id='features'><Features /></section>
-      <section id='contact'><ContactUs /></section>
       <section id='innovators'><Innovators /></section>
+      <section id='contact'><ContactUs /></section>
+      
 
     </div>
   );
