@@ -177,6 +177,7 @@ export default function FarmerMarket() {
             <h2 className="total-price">Total: ₹{getTotalPrice().toFixed(2)}</h2>
             <Button className="checkout-button">Proceed to Checkout</Button>
           </div>
+          
         </div>
       )}
     </div>
@@ -197,7 +198,7 @@ export default function FarmerMarket() {
         <Input
           id="search"
           type="text"
-          placeholder="Search products or farmers..."
+          placeholder="Search for products..."
           value={searchTerm}
           onChange={(e) => setSearchTerm(e.target.value)}
           className="search-bar"
