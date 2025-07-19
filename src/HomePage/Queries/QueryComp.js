@@ -4,7 +4,7 @@ import { getDocs, collection, query, orderBy } from 'firebase/firestore';
 import { storage } from '../../firebase/Setup';
 import MyModal from '../ModalCenter/MyModal';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faAngleRight, faJetFighter } from '@fortawesome/free-solid-svg-icons';
+import { faAngleRight } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
 import Loader from '../../Loader/Loader';
 
@@ -98,10 +98,10 @@ export function QueryComp({modal,toggleModal}) {
       setIsLoading(false);
     };
     fetchData();
-  }, []);
+  });
 
-  const userInfo = JSON.parse(sessionStorage.getItem('user-info'));
-  const first = String(userInfo.name)[0];
+
+
 
   const setQuery =(query) => {
     if(query.length>100) {

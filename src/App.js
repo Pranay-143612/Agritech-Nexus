@@ -5,7 +5,6 @@
 //import Home from './HomePage/Home';
 //import Front from './Front Page/Front.js'
 
-import Navbar from "./HomePage/sidebar/Navbar";
 
 function App() {
   return (

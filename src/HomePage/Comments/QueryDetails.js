@@ -11,7 +11,7 @@ export function QueryDetails() {
   const query = location.state?.query;
   useEffect(()=> {
     console.log(query);
-  },[])
+  })
 
   if (!query) {
     return <p>Query data is not available. Please try again later.</p>;

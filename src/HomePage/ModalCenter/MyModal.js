@@ -19,7 +19,7 @@ function MyModal({ toggleModal, modal, getQuery }) {
         try {
             const snapshot = await get(usernameRef);
             const username = snapshot.exists() ? snapshot.val() : "anonymous"
-            if (post != "") {
+            if (post !== "") {
                 addDoc(queryRef, {
                     query: post,
                     createdAt: serverTimestamp(),

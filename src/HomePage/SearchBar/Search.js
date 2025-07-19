@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import './search.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faMagnifyingGlass, faPen } from '@fortawesome/free-solid-svg-icons';
+import { faMagnifyingGlass } from '@fortawesome/free-solid-svg-icons';
 
 function Search({ isOpen, setIsOpen, toggle}) {
 
